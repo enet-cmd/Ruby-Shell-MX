@@ -6,6 +6,6 @@ class String
   include Colors
 end
 
-puts "Loading Ruby Shell v1.37...".blink.red
+puts "Great things are coming your way.".blink.green
 sleep 0.5
 exec "ruby rsh"
