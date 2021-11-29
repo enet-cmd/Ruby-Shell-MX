@@ -13,7 +13,7 @@ do
     printf "\b${sp:i++%${#sp}:1}"
 done
 printf "prompt: 'λ '
-message: 'Welcome to RSMX'
+message: 'W e l c o m e  t o  S P O C K!'
 ascii: 'logo.txt'"  >> config.yml
 printf "\nFinished."
 sleep 1
