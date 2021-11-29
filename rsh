@@ -204,9 +204,9 @@ sleep 1
 
 puts config['message'].blink.red
 sleep 0.7
-puts "GitHub: EnterTheVoid-x86/Ruby-Shell-Unofficial".blink.green
+puts "Forked from: github.com/EnterTheVoid-x86/Ruby-Shell-Unofficial".blink.green
 sleep 0.7
-puts "Maintained by ^--- that guy".blink.green
+puts "Project by github.com/enet-cmd.".blink.cyan
 sleep 0.7
 begin
   while input = Readline.readline("#{Etc.getlogin}@#{Socket.gethostname}:~#{Dir.pwd} #{config['prompt']}", true).strip # NVM, need to fix broken prompt
