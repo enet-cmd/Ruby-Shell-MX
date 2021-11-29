@@ -6,6 +6,6 @@ class String
   include Colors
 end
 
-puts "Great things are coming your way.".blink.green
+puts "Great things are coming your way.".blink.cyan
 sleep 0.5
 exec "ruby rsh"
